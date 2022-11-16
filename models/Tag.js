@@ -15,8 +15,6 @@ Tag.init(
     },
     tag_name: {
       type: DataTypes.STRING,
-      allowNull: false
-      // TODO: Not sure if this should be here. Possibly ok to allowNull? Check back...
     }
   },
   {
