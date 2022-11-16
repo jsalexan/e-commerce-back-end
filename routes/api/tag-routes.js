@@ -9,8 +9,7 @@ router.get('/', async (req, res) => {
   try {
     const tagData = await Tag.findAll({
     include: [{ model: Product }],
-    // TODO: Do I include attributes here? Like, id, etc?
-    });
+  });
     res.status(200).json(tagData);
   } catch (err) {
     res.status(500).json(err);
@@ -42,7 +41,7 @@ router.post('/', (req, res) => {
     tag_id: req.body.tag_id
   })
   .then((tagData) => {
-    res.json(tagData);
+    res.status(200).json(tagData);
   })
   .catch((err) => {
     res.status(500).json(err);
@@ -57,21 +56,21 @@ router.put('/:id', async (req, res) => {
     },
     {
       where: {
-        tag_id: req.params.tag_id,
+        id: req.params.id,
       },
     }
   );
-  return res.json(tagData);
+  res.status(200).json(tagData);
 });
 
 router.delete('/:id', async (req, res) => {
   // delete on tag by its `id` value
   const tagData = await Tag.destroy({
     where: {
-      tag_id: req.params.tag_id,
+      id: req.params.id,
     },
   });
-  return res.json(tagData);
+  res.status(200).json(tagData);
 });
 
 module.exports = router;
