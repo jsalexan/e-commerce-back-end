@@ -35,6 +35,8 @@
   The repository is on GitHub: [GitHub repository for E-commerce Back End Application.](https://github.com/jsalexan/e-commerce-back-end) <br>
   There you will find following file types: 
    JavaScript, JSON, README, Images.
+
+   Please be sure to install NodeJS, Express, and mySQL.
   <br><br>
 
 ## [Usage](#table-of-contents)
