@@ -54,8 +54,8 @@
 
   **Third Party References and Tutorials used include:** 
   <br>
-  https://sequelize.org/docs/v6/core-concepts/model-basics/#data-types
-  https://www.sqltutorial.org/sql-update/
+  https://sequelize.org/docs/v6/core-concepts/model-basics/#data-types<br>
+  https://www.sqltutorial.org/sql-update/<br>
   https://uwa.bootcampcontent.com/UWA-Bootcamp/UW-VIRT-FSF-PT-08-2022-U-LOLC/-/tree/main/13-ORM
   <br><br>
 
