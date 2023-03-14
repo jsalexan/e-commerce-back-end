@@ -13,7 +13,7 @@
 
   For my application, I used the following technologies: This application utilizes mySQL, NodeJS, Sequelize, Express, and Insomnia, along with JavaScript, JSON, and more..
   <br><br>
-  Some of the challenges I faced in creating this app include getting the routes set up just right. It takes a lot to coordinate all the moving pieces and be sure it was working as intended. 
+  Some of the challenges I faced in creating this app include getting the routes set up just right. It took a lot to coordinate all the moving pieces. 
   <br><br>
   In the future, it would be fun to create the front end and see it work as a full stack application.
   <br><br>
